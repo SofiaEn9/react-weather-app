@@ -72,6 +72,14 @@ h4 {
   margin: 0;
   padding-left: 0px;
   text-align: center;
+  position: relative;
+  top: -10px;
+}
+
+.Weather .main-forecast img {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
 }
 
 .Weather .main-forecast h1 .units {

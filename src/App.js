@@ -5,12 +5,12 @@ export default function App() {
   return (
     <div className="App">
       <div className="container">
-        <Weather />
+        <Weather defaultCity="Chihuahua" />
         <footer>
           <a
             href="https://github.com/SofiaEn9/react-weather-app"
             target="_blank"
-            rel="noreferer"
+            rel="noreferrer"
           >
             Open-source code
           </a>{" "}
@@ -18,7 +18,7 @@ export default function App() {
           <a
             href="https://www.linkedin.com/in/sofia-enriquez-p/"
             target="_blank"
-            rel="noreferer"
+            rel="noreferrer"
           >
             Sofía Enríquez
           </a>
