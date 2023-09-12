@@ -17,7 +17,7 @@ export default function App() {
           by{" "}
           <a
             href="https://www.linkedin.com/in/sofia-enriquez-p/"
-            traget="_blank"
+            target="_blank"
             rel="noreferer"
           >
             Sofía Enríquez
