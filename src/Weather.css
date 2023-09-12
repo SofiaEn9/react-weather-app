@@ -1,0 +1,100 @@
+.Weather {
+  border-top: 1px solid rgba(239, 240, 247, 0.3);
+  border-left: 1px solid rgba(239, 240, 247, 0.3);
+  border-right: 1px solid rgba(200, 202, 225, 0.3);
+  border-bottom: 1px solid rgba(200, 202, 225, 0.3);
+  box-shadow: rgba(0, 0, 0, 0.15) 1.25px 1.25px 1.6px;
+  border-radius: 24px;
+  color: #666c71;
+  padding: 40px;
+}
+
+/* FORM */
+.Weather .form-control {
+  background: rgba(255, 255, 255, 0.5);
+  border-top: 1px solid rgba(239, 240, 247, 0.3);
+  border-left: 1px solid rgba(239, 240, 247, 0.3);
+  border-right: 1px solid rgba(200, 202, 225, 0.3);
+  border-bottom: 1px solid rgba(200, 202, 225, 0.3);
+  box-shadow: rgba(0, 0, 0, 0.15) 1.25px 1.25px 1.6px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+.Weather .btn {
+  background: rgba(255, 255, 255, 0.5);
+  border-top: 1px solid rgba(239, 240, 247, 0.3);
+  border-left: 1px solid rgba(239, 240, 247, 0.3);
+  border-right: 1px solid rgba(200, 202, 225, 0.3);
+  border-bottom: 1px solid rgba(200, 202, 225, 0.3);
+  box-shadow: rgba(0, 0, 0, 0.15) 1.25px 1.25px 1.6px;
+  color: #666c71;
+  border-radius: 12px;
+  transition: all 150ms ease-in-out;
+}
+
+.Weather .btn:hover {
+  box-shadow: none;
+}
+
+/* MAIN FORECAST CONTAINER */
+.Weather .main-forecast {
+  background: rgba(255, 255, 255, 0.5);
+  border-top: 1px solid rgba(239, 240, 247, 0.3);
+  border-left: 1px solid rgba(239, 240, 247, 0.3);
+  border-right: 1px solid rgba(200, 202, 225, 0.3);
+  border-bottom: 1px solid rgba(200, 202, 225, 0.3);
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  border-radius: 24px;
+  padding-top: 48px;
+  padding-bottom: 48px;
+  margin-left: 10px;
+}
+
+/* MAIN CITY, DATE, TEMP  */
+.Weather h3,
+h4 {
+  margin-bottom: 0px;
+  margin-left: 30px;
+  text-align: left;
+  text-transform: capitalize;
+  line-height: 22px;
+}
+
+.Weather h4 {
+  font-size: 20px;
+  color: rgba(97, 103, 108, 0.6);
+  line-height: 30px;
+}
+
+.Weather .main-forecast h1 {
+  font-size: 48px;
+  margin: 0;
+  padding-left: 0px;
+  text-align: center;
+}
+
+.Weather .main-forecast h1 .units {
+  font-size: 16px;
+  position: relative;
+  top: -19px;
+  right: 5px;
+}
+
+/* MAIN CITY TEMP SPECS */
+.Weather ul.main-forecast-specs {
+  list-style: none;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  padding-left: 30px;
+  text-align: left;
+}
+
+.Weather ul.main-forecast-specs li {
+  font-size: 14px;
+  text-transform: capitalize;
+}
+
+.Weather ul.main-forecast-specs li#weather-description {
+  font-size: 18px;
+}
