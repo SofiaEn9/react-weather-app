@@ -1,7 +1,6 @@
 import React from "react";
 
 export default function FormattedDate(props) {
-  console.log(new Date(1694618681 * 1000));
   let days = [
     "Monday",
     "Tuesday",
