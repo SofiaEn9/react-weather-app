@@ -53,12 +53,19 @@
 
 /* MAIN CITY, DATE, TEMP  */
 .Weather h3,
-h4 {
+h1 {
   margin-bottom: 0px;
   margin-left: 30px;
   text-align: left;
   text-transform: capitalize;
   line-height: 22px;
+}
+
+.Weather h1 {
+  font-size: 28px;
+  color: rgba(97, 103, 108, 0.8);
+  line-height: 30px;
+  margin-left: 0px;
 }
 
 .Weather h4 {
@@ -67,13 +74,14 @@ h4 {
   line-height: 30px;
 }
 
-.Weather .main-forecast h1 {
+.Weather .main-forecast .main-temperature {
   font-size: 48px;
   margin: 0;
   padding-left: 0px;
   text-align: center;
   position: relative;
-  top: -10px;
+  /* top: -10px; */
+  margin-bottom: 10px;
 }
 
 .Weather .main-forecast img {
@@ -86,7 +94,7 @@ h4 {
   font-size: 16px;
   position: relative;
   top: -19px;
-  right: 5px;
+  right: 10px;
 }
 
 /* MAIN CITY TEMP SPECS */

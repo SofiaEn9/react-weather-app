@@ -41,12 +41,12 @@ export default function Weather(props) {
         </form>
         <div className="row">
           <div className="col-7 main-forecast">
-            <h3>{weatherData.city}</h3>
+            <h1>{weatherData.city}</h1>
             <h4>
               <FormattedDate date={weatherData.date} />
             </h4>
             <img src={weatherData.iconUrl} alt={weatherData.description}></img>
-            <h1>
+            <h1 className="main-temperature">
               {Math.round(weatherData.temperature)}{" "}
               <span className="units">ºC</span>
             </h1>
