@@ -8,14 +8,24 @@
   border-radius: 12px;
 }
 
-.DailyForecast .row {
+.DailyForecastDay1 .row {
   align-items: center;
 }
 
-.DailyForecast img {
+.DailyForecastDay1 img {
   padding-left: 7px;
 }
 
-.DailyForecast .DailyForecast-specs {
+.DailyForecastDay1 .specs {
   align-items: center;
+  padding-left: 0px;
+}
+
+.DailyForecastDay1 .specs .day,
+.temperature {
+  font-size: 16px;
+}
+
+.DailyForecastDay1 .specs .temperature .temperature-min {
+  color: rgba(97, 103, 108, 0.5);
 }

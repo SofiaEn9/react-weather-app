@@ -87,10 +87,16 @@ h4 {
   margin: 0 auto;
 }
 
-.Weather .main-forecast h1 .units {
+.WeatherTemperature .units {
   font-size: 16px;
   position: relative;
   top: -19px;
+  padding-left: 5px;
+  text-decoration: none;
+}
+
+.WeatherTemperature .units a {
+  text-decoration: none;
 }
 
 /* MAIN CITY TEMP SPECS */
@@ -103,10 +109,12 @@ h4 {
 }
 
 .Weather ul.main-forecast-specs li {
-  font-size: 14px;
-  text-transform: capitalize;
+  font-size: 15px;
+  color: rgba(97, 103, 108, 0.6);
 }
 
 .Weather ul.main-forecast-specs li#weather-description {
   font-size: 18px;
+  text-transform: capitalize;
+  color: rgba(97, 103, 108, 0.8);
 }
