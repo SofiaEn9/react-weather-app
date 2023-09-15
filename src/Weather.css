@@ -49,6 +49,7 @@
   padding-top: 48px;
   padding-bottom: 48px;
   margin-left: 10px;
+  align-items: center;
 }
 
 /* MAIN CITY, DATE, TEMP  */
@@ -109,7 +110,7 @@ h4 {
 }
 
 .Weather ul.main-forecast-specs li {
-  font-size: 15px;
+  font-size: 14px;
   color: rgba(97, 103, 108, 0.6);
 }
 

@@ -1,4 +1,5 @@
-.DailyForecast {
+.DailyForecastDay .row {
+  align-items: center;
   background: rgba(255, 255, 255, 0.5);
   border-top: 1px solid rgba(239, 240, 247, 0.3);
   border-left: 1px solid rgba(239, 240, 247, 0.3);
@@ -6,26 +7,25 @@
   border-bottom: 1px solid rgba(200, 202, 225, 0.3);
   box-shadow: rgba(0, 0, 0, 0.15) 1.25px 1.25px 1.6px;
   border-radius: 12px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
-.DailyForecastDay1 .row {
-  align-items: center;
+.DailyForecastDay .row .col img {
+  margin-left: 15px;
+  width: 65px;
 }
 
-.DailyForecastDay1 img {
-  padding-left: 7px;
-}
-
-.DailyForecastDay1 .specs {
+.DailyForecastDay .specs {
   align-items: center;
   padding-left: 0px;
 }
 
-.DailyForecastDay1 .specs .day,
+.DailyForecastDay .specs .day,
 .temperature {
-  font-size: 16px;
+  font-size: 14px;
 }
 
-.DailyForecastDay1 .specs .temperature .temperature-min {
+.DailyForecastDay .specs .temperature .temperature-min {
   color: rgba(97, 103, 108, 0.5);
 }

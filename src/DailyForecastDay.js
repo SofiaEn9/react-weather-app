@@ -16,19 +16,19 @@ export default function DailyForecastDay1(props) {
     let day = date.getDay();
 
     let days = [
-      "Sunday",
       "Monday",
-      "Tueday",
+      "Tuesday",
       "Wednesday",
       "Thursday",
       "Friday",
-      "Satday",
+      "Saturday",
+      "Sunday",
     ];
     return days[day];
   }
 
   return (
-    <div className="DailyForecastDay1">
+    <div className="DailyForecastDay">
       <div className="row">
         <div className="col">
           <img
