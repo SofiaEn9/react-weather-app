@@ -1,0 +1,119 @@
+.Bg-clear-sky {
+  padding: 10px;
+  border-radius: 24px;
+  width: 550px;
+  height: 508px;
+  filter: blur(10px);
+  position: absolute;
+  z-index: -1;
+  background: linear-gradient(
+    45deg,
+    rgba(253, 249, 25, 0.7),
+    rgba(248, 241, 170, 0.7)
+  );
+}
+
+.Bg-few-clouds {
+  padding: 10px;
+  border-radius: 24px;
+  width: 550px;
+  height: 508px;
+  filter: blur(10px);
+  position: absolute;
+  z-index: -1;
+  background: linear-gradient(
+    45deg,
+    rgba(125, 142, 146, 0.7),
+    rgba(88, 222, 252, 0.7)
+  );
+}
+
+.Bg-clouds {
+  padding: 10px;
+  border-radius: 24px;
+  width: 550px;
+  height: 508px;
+  filter: blur(10px);
+  position: absolute;
+  z-index: -1;
+  background: linear-gradient(
+    45deg,
+    rgba(69, 99, 106, 0.7),
+    rgba(211, 211, 211, 0.7)
+  );
+}
+
+.Bg-rain {
+  padding: 10px;
+  border-radius: 24px;
+  width: 550px;
+  height: 508px;
+  filter: blur(10px);
+  position: absolute;
+  z-index: -1;
+  background: linear-gradient(
+    45deg,
+    rgba(17, 66, 115, 0.7),
+    rgba(67, 126, 185, 0.7)
+  );
+}
+
+.Bg-thunderstorm {
+  padding: 10px;
+  border-radius: 24px;
+  width: 550px;
+  height: 508px;
+  filter: blur(10px);
+  position: absolute;
+  z-index: -1;
+  background: linear-gradient(
+    45deg,
+    rgba(52, 45, 144, 0.7),
+    rgb(224, 226, 250, 0.7)
+  );
+}
+
+.Bg-snow {
+  padding: 10px;
+  border-radius: 24px;
+  width: 550px;
+  height: 508px;
+  filter: blur(10px);
+  position: absolute;
+  z-index: -1;
+  background: linear-gradient(
+    45deg,
+    rgba(0, 148, 217, 0.7),
+    rgba(222, 232, 242, 0.7)
+  );
+}
+
+.Bg-mist {
+  padding: 10px;
+  border-radius: 24px;
+  width: 550px;
+  height: 508px;
+  filter: blur(10px);
+  position: absolute;
+  z-index: -1;
+  background: linear-gradient(
+    45deg,
+    rgba(97, 161, 205, 0.7),
+    rgb(26, 108, 153, 0.7)
+  );
+}
+
+.Bg-haze {
+  padding: 10px;
+  border-radius: 24px;
+  width: 550px;
+  height: 508px;
+  filter: blur(10px);
+  position: absolute;
+  z-index: -1;
+  background: linear-gradient(
+    45deg,
+    rgb(0, 103, 175, 0.7),
+    rgba(0, 180, 185, 0.7)
+  );
+}

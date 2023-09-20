@@ -1,11 +1,11 @@
 .DailyForecastDay .row {
   align-items: center;
   background: rgba(255, 255, 255, 0.5);
-  border-top: 1px solid rgba(239, 240, 247, 0.3);
+  /* border-top: 1px solid rgba(239, 240, 247, 0.3);
   border-left: 1px solid rgba(239, 240, 247, 0.3);
   border-right: 1px solid rgba(200, 202, 225, 0.3);
   border-bottom: 1px solid rgba(200, 202, 225, 0.3);
-  box-shadow: rgba(0, 0, 0, 0.15) 1.25px 1.25px 1.6px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.25px 1.25px 1.6px; */
   border-radius: 12px;
   padding-top: 5px;
   padding-bottom: 5px;
@@ -24,6 +24,7 @@
 .DailyForecastDay .specs .day,
 .temperature {
   font-size: 14px;
+  color: rgba(97, 103, 108, 0.8);
 }
 
 .DailyForecastDay .specs .temperature .temperature-min {
