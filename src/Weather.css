@@ -165,4 +165,9 @@ h4 {
     padding-left: 0px;
     text-align: center;
   }
+
+  .Weather .main-forecast {
+    padding-top: 50px;
+    margin-left: 0px;
+  }
 }
