@@ -117,3 +117,18 @@
     rgba(0, 180, 185, 0.7)
   );
 }
+
+@media (max-width: 576px) {
+  .Bg-clear-sky,
+  .Bg-few-clouds,
+  .Bg-clouds,
+  .Bg-rain,
+  .Bg-thunderstorm,
+  .Bg-snow,
+  .Bg-mist,
+  .Bg-haze {
+    width: 350px;
+    height: 915px;
+    filter: blur(15px);
+  }
+}

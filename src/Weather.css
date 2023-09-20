@@ -149,3 +149,20 @@ h4 {
   text-transform: capitalize;
   color: rgba(97, 103, 108, 0.8);
 }
+
+@media (max-width: 576px) {
+  .container {
+    width: 350px;
+  }
+
+  .Weather h1,
+  h4 {
+    margin-left: 0px;
+    text-align: center;
+  }
+
+  .Weather ul.main-forecast-specs {
+    padding-left: 0px;
+    text-align: center;
+  }
+}

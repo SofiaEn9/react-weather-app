@@ -27,6 +27,8 @@ export default function Background(props) {
     return <div className="Bg-mist"></div>;
   } else if (props.bg === "haze") {
     return <div className="Bg-haze"></div>;
+  } else if (props.bg === "smoke") {
+    return <div className="Bg-haze"></div>;
   } else {
     return null;
   }

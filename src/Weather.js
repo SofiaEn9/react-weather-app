@@ -45,7 +45,7 @@ export default function Weather(props) {
         <div className="Weather">
           <form onSubmit={handleSubmit}>
             <div className="row">
-              <div className="col-9">
+              <div className="col-sm-9">
                 <input
                   type="search"
                   placeholder="Type a city..."
@@ -53,7 +53,7 @@ export default function Weather(props) {
                   onChange={handleCityInput}
                 />
               </div>
-              <div className="col-3">
+              <div className="col-sm-3">
                 <input
                   type="submit"
                   value="Search"

@@ -30,3 +30,9 @@
 .DailyForecastDay .specs .temperature .temperature-min {
   color: rgba(97, 103, 108, 0.5);
 }
+
+@media (max-width: 576px) {
+  .DailyForecastDay .row .col img {
+    margin-left: 70px;
+  }
+}
